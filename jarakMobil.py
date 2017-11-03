@@ -3,9 +3,9 @@ v0 = float(input("kecepatan mula-mula: "))
 a = float(input("percepatan: "))
 
 while (t<11):
-	print "t    = ",t,"s"
+	print "t    =",t,"s"
 	s = (v0*t) + ((a*t*t)/2)
-	print "S(t) = ",s,"m"
+	print "S(t) =",s,"m"
 	t+=1
 
 print ""
